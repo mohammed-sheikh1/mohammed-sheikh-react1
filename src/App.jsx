@@ -2,9 +2,9 @@ import { useState } from "react";
 
 function App() {
   const [products, setProducts] = useState([
-    { id: 1, name: "Laptop", price: 1200 },
-    { id: 2, name: "Phone", price: 700 },
-    { id: 3, name: "Headphones", price: 150 },
+    { id: 1, name: "Laptop", price: 1000 },
+    { id: 2, name: "Phone", price: 1000 },
+    { id: 3, name: "Headphones", price: 250 },
   ]);
   const [productName, setProductName] = useState("");
   const [productPrice, setProductPrice] = useState("");
